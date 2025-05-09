@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f9f8;
+    color: #004d40;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #00796b;
+  }
+  
+  .suggestion-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 150, 136, 0.1);
+    margin: 20px 0;
+  }
+  
+  .suggestion-box h2 {
+    color: #00695c;
+  }
+  
+  .suggestion-box ul {
+    text-align: left;
+    padding-left: 20px;
+  }
+  

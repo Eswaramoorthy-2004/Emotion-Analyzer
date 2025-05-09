@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Mental Health App</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/board.css') }}">
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Welcome, User 👋</h1>
+    <p>Here's your mental wellness summary for today.</p>
+
+    <div class="card-container">
+      <div class="card">
+        <h2>Mood Tracker</h2>
+        <p>Track your daily mood</p>
+        <button onclick="location.href='/mood'">Go</button>
+      </div>
+      <div class="card">
+        <h2>Meditation</h2>
+        <p>Guided relaxation sessions</p>
+        <button onclick="location.href='/meditation'">Go</button>
+      </div>
+      <div class="card">
+        <h2>AI Suggestions</h2>
+        <p>Tips based on your mood</p>
+        <button onclick="location.href='/ai-suggest'">Go</button>
+      </div>
+      <div class="card">
+        <h2>Therapist Support</h2>
+        <p>Connect with a counsellor</p>
+        <button onclick="location.href='/therapist'">Go</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

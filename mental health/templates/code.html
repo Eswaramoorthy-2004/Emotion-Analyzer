@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mental Health Support Login</title>
+  <style>
+    body { 
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #eaf6f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 300px;
+    }
+    .login-container h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .login-container p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #009688;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .signup-link {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    .signup-link a {
+      color: #4e9af1;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Mental Health Support</h2>
+    <p>Your mental wellness matters</p>
+    
+    <form action="/login" method="POST">
+      <label>Email:</label><br>
+      <input type="email" name="email" placeholder="Email" required /><br><br>
+      
+      <label>Password:</label><br>
+      <input type="password" name="password" placeholder="Password" required /><br><br>
+
+      <a href="#" onclick="alert('Password reset link has been sent to your email.')">Forgot Password?</a><br><br>
+
+      <button type="submit">Login</button><br><br>
+
+      <p class="signup-link">New here? 
+        <a href="#" onclick="alert('Redirecting to sign up page...')">Create an account</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>

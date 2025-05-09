@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meditation - Mental Health App</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/meditation.css') }}" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🧘 Meditation Center</h1>
+      <p>Relax your mind and body with our guided sessions.</p>
+
+      <div class="meditation-options">
+        <div class="session">
+          <h3>🌅 Morning Calm</h3>
+          <p>Start your day with peace.</p>
+          <audio controls>
+            <source
+              src="{{ url_for('static', filename='audio/morning_meditation.mp3') }}"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+
+        <div class="session">
+          <h3>🌙 Night Relaxation</h3>
+          <p>Wind down before sleep.</p>
+          <audio controls>
+            <source
+              src="{{ url_for('static', filename='audio/night_relaxation.mp3') }}"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+
+        <div class="session">
+          <h3>🌿 Stress Relief</h3>
+          <p>Clear your thoughts and recharge.</p>
+          <audio controls>
+            <source
+              src="{{ url_for('static', filename='audio/stress_relief.mp3') }}"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

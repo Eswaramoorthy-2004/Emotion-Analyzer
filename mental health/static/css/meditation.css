@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3fbf9;
+    color: #004d40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 150, 136, 0.2);
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  h1 {
+    color: #00796b;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .meditation-options {
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+  }
+  
+  .session {
+    background-color: #e0f7f5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  

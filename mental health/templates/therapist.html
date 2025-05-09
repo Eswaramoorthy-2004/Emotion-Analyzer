@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Therapist Support - Mental Health App</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/therapists.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>💬 Therapist Support</h1>
+      <p>Connect with a licensed professional for emotional support.</p>
+
+      <div class="therapist-list">
+        <div class="therapist-card">
+          <h2>Dr. Eswaramoorthy M</h2>
+          <p>Speciality: Anxiety, Depression</p>
+          <p>Available: Mon - Fri | 10AM - 5PM</p>
+          <!-- Updated link to '/booking' route -->
+          <button onclick="window.location.href='/booking'">
+            Book Session
+          </button>
+        </div>
+
+        <div class="therapist-card">
+          <h2>Mr.Salem Jeyasheelan</h2>
+          <p>Speciality: Stress, Work-Life Balance</p>
+          <p>Available: Mon - Sat | 1PM - 8PM</p>
+          <!-- Updated link to '/booking' route -->
+          <button onclick="window.location.href='/booking'">
+            Book Session
+          </button>
+        </div>
+
+        <div class="therapist-card">
+          <h2>Ms. Aswath Kannan</h2>
+          <p>Speciality: Teenage Mental Health</p>
+          <p>Available: Tue - Sun | 11AM - 4PM</p>
+          <!-- Updated link to '/booking' route -->
+          <button onclick="window.location.href='/booking'">
+            Book Session
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
